@@ -1,0 +1,12 @@
+build/
+host/bin/
+host/obj/
+logs/
+release/
+*.keystore
+dist/
+evidence/
+verification-tablet.png
+*.pfx
+*.p12
+.vs/

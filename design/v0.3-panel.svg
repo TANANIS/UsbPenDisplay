@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1080" viewBox="0 0 1560 1080">
+<defs>
+ <style>text{font-family:'Segoe UI','Microsoft JhengHei',sans-serif;fill:#e8e9ed} .muted{fill:#999eaa;font-size:16px}.small{font-size:14px}.label{font-size:17px}.title{font-size:24px;font-weight:600}.mono{font-family:Consolas,monospace;font-size:14px}.line{stroke:#343843;stroke-width:1}</style>
+ <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#bcb9b2" stroke-width=".45"/></pattern>
+</defs>
+<rect width="1560" height="1080" fill="#13151a"/>
+<text x="48" y="54" font-size="15" letter-spacing="3" fill="#bca47a">USB PEN DISPLAY / PANEL STUDY 01</text>
+<text x="48" y="101" font-size="32" font-weight="600">插上，連線，開始畫。</text>
+<text x="48" y="133" class="muted">v0.3 提案 · 電腦管理連線，平板保留繪圖空間 · 此圖為介面草稿</text>
+<!-- desktop -->
+<rect x="48" y="176" width="700" height="618" rx="18" fill="#20232b" stroke="#3c414d"/>
+<path d="M66 176H730Q748 176 748 194V226H48V194Q48 176 66 176" fill="#282c35"/>
+<rect x="70" y="191" width="22" height="20" rx="4" fill="#d2b181"/><path d="M76 205l9-10" stroke="#24252a" stroke-width="3"/>
+<text x="106" y="207" font-size="15" font-weight="600">USB Pen Display</text><text x="645" y="207" class="muted">—　□　×</text>
+<text x="78" y="270" class="title">繪圖連線</text><text x="78" y="299" class="muted">映射電腦主螢幕，透過 USB 使用 S Pen。</text>
+<rect x="78" y="324" width="640" height="112" rx="12" fill="#292e37"/>
+<rect x="98" y="346" width="54" height="68" rx="7" fill="#1d2026" stroke="#888e9b" stroke-width="2"/><path d="M111 398l27-32" stroke="#d2b181" stroke-width="4"/>
+<text x="174" y="363" class="label" font-weight="600">Galaxy Tab S6 Lite</text><circle cx="181" cy="390" r="5" fill="#90c5aa"/><text x="195" y="396" font-size="16" fill="#a9d3bd">已連線 · 可以繪圖</text>
+<rect x="603" y="361" width="90" height="36" rx="7" fill="#373e49"/><text x="648" y="384" text-anchor="middle" class="small">切換裝置</text>
+<text x="78" y="475" class="label">畫面品質</text><rect x="78" y="492" width="640" height="48" rx="8" fill="#171a20"/>
+<rect x="82" y="496" width="207" height="40" rx="6" fill="#434047" stroke="#d2b181"/><text x="185" y="522" text-anchor="middle" font-size="16" fill="#ead0aa">流暢　1280</text><text x="397" y="522" text-anchor="middle" class="muted">清晰　1600</text><text x="610" y="522" text-anchor="middle" class="muted">原始解析度</text>
+<text x="78" y="569" class="small muted">整個主螢幕等比例映射。品質變更於重新連線後套用。</text>
+<path d="M78 594H718" class="line"/><text x="78" y="626" class="label">›　進階設定與診斷</text><text x="78" y="654" class="small muted">呈現模式、連線紀錄與問題回報</text>
+<rect x="78" y="696" width="450" height="52" rx="9" fill="#d2b181"/><text x="303" y="729" text-anchor="middle" font-size="18" style="fill:#252323;font-weight:600">停止繪圖連線</text>
+<rect x="542" y="696" width="176" height="52" rx="9" fill="#30353f"/><text x="630" y="729" text-anchor="middle" font-size="17">收至系統匣</text>
+<text x="78" y="777" class="small muted">● USB　　主螢幕 1920 × 1080 → 1280 × 720</text>
+<!-- tablet connected -->
+<text x="794" y="203" class="label" font-weight="600">平板 · 繪圖中</text><text x="1450" y="203" text-anchor="end" class="small muted">控制列可收合</text>
+<rect x="788" y="223" width="724" height="390" rx="24" fill="#0b0d11" stroke="#414651" stroke-width="2"/>
+<rect x="804" y="239" width="692" height="358" rx="10" fill="#55555a"/>
+<rect x="804" y="239" width="692" height="34" fill="#34353b"/><text x="822" y="262" class="small">CSP · 主螢幕完整映射</text>
+<rect x="804" y="273" width="40" height="324" fill="#3a3b41"/><path d="M818 297h12m-12 26h12m-12 26h12m-12 26h12" stroke="#92949a" stroke-width="3"/>
+<rect x="1376" y="273" width="120" height="324" fill="#3d3e44"/><text x="1390" y="300" class="small muted">圖層</text><rect x="1388" y="315" width="96" height="28" rx="3" fill="#626674"/>
+<rect x="865" y="293" width="488" height="280" fill="#e6e2d9"/><rect x="865" y="293" width="488" height="280" fill="url(#grid)"/>
+<path d="M927 500C980 401 1020 340 1078 402S1163 516 1248 375" fill="none" stroke="#4b5b64" stroke-width="10" stroke-linecap="round"/>
+<rect x="1053" y="548" width="266" height="36" rx="18" fill="#20242b" fill-opacity=".94"/><circle cx="1076" cy="566" r="4" fill="#90c5aa"/><text x="1090" y="571" class="small">已連線</text><path d="M1168 557v18" class="line"/><text x="1183" y="571" class="small">設定　　收合 ⌄</text>
+<!-- tablet reconnect -->
+<text x="794" y="655" class="label" font-weight="600">平板 · 連線中斷</text><text x="1450" y="655" text-anchor="end" class="small muted">舊畫面加遮罩，筆輸入暫停</text>
+<rect x="788" y="675" width="724" height="310" rx="24" fill="#0b0d11" stroke="#414651" stroke-width="2"/>
+<rect x="804" y="691" width="692" height="278" rx="10" fill="#292d35"/>
+<circle cx="1150" cy="741" r="14" fill="none" stroke="#5c5448" stroke-width="3"/><path d="M1150 727a14 14 0 0 1 14 14" fill="none" stroke="#d2b181" stroke-width="3"/>
+<text x="1150" y="788" text-anchor="middle" class="title">USB 連線中斷，正在等候恢復</text>
+<text x="1150" y="821" text-anchor="middle" class="muted">確認線材接穩，並保持平板解鎖。</text><text x="1150" y="848" text-anchor="middle" class="muted">恢復後會重新同步完整畫面，再繼續接收筆輸入。</text>
+<rect x="1024" y="883" width="120" height="42" rx="8" fill="#d2b181"/><text x="1084" y="910" text-anchor="middle" font-size="16" style="fill:#252323">立即重試</text><text x="1223" y="910" text-anchor="middle" font-size="16">返回連線頁</text>
+<!-- states -->
+<text x="48" y="836" class="label" font-weight="600">電腦端連線狀態</text>
+<rect x="48" y="858" width="700" height="127" rx="12" fill="#20232b"/>
+<circle cx="76" cy="888" r="5" fill="#999eaa"/><text x="92" y="894" class="small">等待接線</text><path d="M174 888h22" stroke="#5d6270"/><circle cx="220" cy="888" r="5" fill="#d2b181"/><text x="236" y="894" class="small">連線／同步中</text><path d="M354 888h22" stroke="#5d6270"/><circle cx="400" cy="888" r="5" fill="#90c5aa"/><text x="416" y="894" class="small">可以繪圖</text>
+<text x="72" y="928" class="small muted">拔線：釋放筆 → 等待裝置 → 修復連線 → 完整同步 → 恢復輸入</text><text x="72" y="957" class="small muted">需要操作時說明原因：請解鎖／允許 USB 連線／開啟平板 App</text>
+<text x="48" y="1032" class="small muted">UI 原則：主要畫面不展示 ADB、session token、編碼器等實作細節；診斷資料集中於進階區。</text>
+</svg>
